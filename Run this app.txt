@@ -1,0 +1,21 @@
+
+Required Application 
+
+mysql 8.x
+.net sdk 8.X
+
+open cmd in this app root 
+
+Run CMD "npm i"
+navigate to
+cd HospitalAppointmentSystem
+Run CMD  : dotnet restore
+Run CMD  : dotnet build
+Run CMD  : dotnet tool install --global dotnet-ef
+Run CMD  :dotnet ef database update
+dotnet run --urls "http://localhost:5000"
+
+nvigate to
+cd hospital-appointment-frontend
+Run CMD  :npm install
+Run CMD  : npm start
